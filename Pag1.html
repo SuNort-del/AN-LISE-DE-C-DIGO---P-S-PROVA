@@ -1,0 +1,126 @@
+<doctype html>
+    <html>
+
+    <head>
+        <meta name="author" content="Paulo Vinicius" />
+        <meta charset="UTF-8" />
+        <meta keywords="RIMWORLD">
+        <meta description="UM POUCO SOBRE O UNIVERSO RIMWORLD">
+
+        <title>
+            Estruturas HTML
+        </title>
+
+    </head>
+
+    <body>
+        <header>
+            <h1> ATIVIDADE DE ANALISE DE CODIGO</h1>
+            <hr>
+            <nav>
+                <h3>NAVEGAÇÃO DA PAGINA</h3>
+                <table>
+                    <tr>
+                        <td>
+                            <a href="Pag1.html">
+                                <img src="IMAGEM DA PAG1/v2-9897f07bb18b92ee7920c3feb89c6530_1440w.png" alt="Inicio"
+                                    width="270"><br>
+                                Inicio
+                            </a>
+                        </td>
+                        <td>
+
+                            <a href="Pag2.html">
+                                <img src="IMAGEM DA PAG2/rimworld-2048x1152.jpeg" alt="Historia" width="300"> <br>
+                                Historia </a>
+                        </td>
+                        <td>
+                            <a href="Pag3.html">
+                                <img src="IMAGEM DA PAG3/R2.jpg" alt="DLCS" width="300"> <br> DLCS </a>
+                        </td>
+                    </tr>
+                </table>
+            </nav>
+
+            <!-- EU APRENDI A UTILIZAR O TABLE COM IMAGENS, ORGANIZA E FACILITA A NAVEGAÇÃO -->
+            <hr>
+            <details>
+                <p>
+                    <summary>Para o professor.</summary>
+                    Como é apenas uma avaliação de codigo HTMl, estarei utilizando apenas como base para as TAG o tema
+                    de um jogo que eu gosto muito, o <strong>RIMWORLD </strong>
+            </details>
+        </header>
+        <main>
+            <h2>INICIO</h2>
+            <figure>
+                <img src="IMAGEM DA PAG1/Mundo.jpg" alt="Mundo" width="550"><br>
+                <figcaption>Mundo inicial de Rimworld antes de tudo.</figcaption>
+            </figure>
+            <p>
+                Em <strong> RimWorld</strong>, a história se passa no futuro distante de um universo expansivo e
+                descentralizado, onde a humanidade se espalhou pelas estrelas sem a existência de viagens mais rápidas
+                que a luz. Devido ao isolamento espacial, a galáxia é marcada por um enorme gradiente tecnológico e
+                cultural, variando desde tribos neolíticas até mundos <abbr
+                    title="São civilizações humanas extremamente avançadas e utópicas no universo de RimWorld, representando o ápice tecnológico e social da humanidade.">
+                    Gliterworlds</abbr> superavançados. Sem um governo centralizado para manter a ordem, a vida nas
+                fronteiras cósmicas é regida pela sobrevivência, pela influência dos <abbr
+                    title="são entidades quase divinas compostas de redes de computação distribuídas, nanomáquinas e estruturas tecnológicas espalhadas por planetas inteiros.">
+                    Archotechs </abbr> e pelas constantes guerras interestelares e disputas locais.
+            </p>
+            <p> O enredo central de cada partida começa quando um grupo de sobreviventes cai ou se estabelece em um
+                "RimWorld" — um planeta selvagem e não mapeado nas bordas do espaço conhecido. A narrativa, orquestrada
+                por uma Inteligência Artificial que atua como "Contadora de Histórias", acompanha a jornada desses
+                colonos enquanto enfrentam invasões de piratas, ataques de insetos mutantes e mecanóides violentos, além
+                de desastres naturais e conflitos interpessoais. O objetivo principal é construir uma <mark>colônia
+                    autossustentável</mark>, superar as adversidades locais e, eventualmente, construir ou encontrar uma
+                nave espacial para escapar do planeta.
+            <blockquote>"RimWorld não é sobre vencer; é sobre gerar histórias sobre o triunfo e a tragédia humana."
+
+                — Tynan Sylvester, criador de RimWorld</blockquote>
+            </p>
+
+            <h2>FICHA DO COLONO</h2>
+
+            <form>
+
+                <label for="nome">Nome do colono:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Digite o nome do colono" required>
+
+                <br><br>
+
+                <label for="data">Data de nascimento:</label><br>
+                <input type="date" id="data" name="data" required>
+
+                <br><br>
+
+                <label for="especialidade">Especialidade:</label><br>
+                <input list="especialidades" id="especialidade" name="especialidade"
+                    placeholder="Digite uma especialidade" required>
+
+                <datalist id="especialidades">
+                    <option value="Construção">
+                    <option value="Medicina">
+                    <option value="Agricultura">
+                    <option value="Pesquisa">
+                    <option value="Combate">
+                    <option value="Culinária">
+                    <option value="Artesanato">
+                </datalist>
+
+                <br><br>
+
+                <input type="submit" value="Criar Colono">
+
+            </form>
+
+        </main>
+    </body>
+    <footer>
+
+        <hr> Essas informações fazem parte do universo de <cite>RimWorld</cite>.
+        <p>Projeto feito por Paulo Vinicius — Atividade de HTML Avançado</p>
+    </footer>
+
+    </html>
+</doctype>
